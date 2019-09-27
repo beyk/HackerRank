@@ -13,7 +13,8 @@ public class Solution {
          for(int i=0;i<n;i++)
         {   for( int j=0;j<=n-1;j++)
             System.out.print( j < n-i-1 ? " " : "#");
-          /*  for(int j=0;j<n-i-1;j++)
+          /* using other way 
+           for(int j=0;j<n-i-1;j++)
              System.out.print(" ");
             for(int k=0;k<i+1;k++)
             System.out.print("#");*/
